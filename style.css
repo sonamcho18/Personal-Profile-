@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #0a0a0a;
+    text-align: center;
+}
+
+header {
+    padding: 10px;
+    background-color: #333;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 20px;
+    display: none;
+}
+
+#about {
+    display: block;
+}
+
+.portfolio-images img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 5px;
+}
